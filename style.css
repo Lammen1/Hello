@@ -1,0 +1,39 @@
+/* Bakgrundsfärg för hela sidan */
+body {
+    background-color: #e487ad; /* ljusrosa bakgrund */
+    color: white; /* Vit text */
+    font-family: Arial, sans-serif; /* Typsnitt */
+    text-align: center; /* Centrerar texten */
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Gör att sidan fyller hela skärmen */
+}
+
+/* Rubrik-stil */
+h1 {
+    font-size: 36px; /* Större rubrik */
+    margin-top: 20px;
+}
+
+/* Vanlig text-stil */
+p {
+    font-size: 18px; /* Vanlig textstorlek */
+    margin-top: 20px;
+}
+
+/* Knapp-stil */
+button {
+    padding: 10px 20px;
+    background-color: #28a745; /* Grön bakgrund på knappen */
+    color: white; /* Vit text på knappen */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/* När muspekaren är över knappen */
+button:hover {
+    background-color: #218838; /* Mörkare grön när man håller musen över knappen */
+}
